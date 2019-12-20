@@ -3,6 +3,7 @@ A Mandala Pattern Dataset built by mining the internet, creating patterns on Wol
 
 ## Web mining
 To mine for images, we mainly used Google Images and Instagram. We used Python libraries to mine for around 16,000 images from both the sources and after clearing through all the junk data, we finally collected around 6,305 clear mandala patterns.
+
 Code:
 - data from google.ipynb
 - data from insta.ipynb
@@ -26,6 +27,11 @@ Generation of patterns on Python is done in two broad ways; automatically and ma
 - A circle mask is applied on both the images, so that the final resulting mandala is circular and more symmetric looking in shape. 
 - Once all sub images are used, the original scribble is then flipped across the x and y axis to form more unique mandalas. 
 Another user friendly custom mandala drawing tool is the section-wise drawing application, which allows the user to draw a specific section, which is then replicated exactly, forming a mandala custom to the user’s wishes. This is mainly an application to draw specific mandala patterns catering to the user’s needs.
+
+Code: 
+- auto-pattern.py; automatic scribble
+- manual.py; manual scribble
+- eighth.py - custom mandala drawing tool
 
 ## WGAN-div
 Source: Wu, Jiqing, et al. "Wasserstein divergence for gans." Proceedings of the European Conference on Computer Vision (ECCV). 2018.
