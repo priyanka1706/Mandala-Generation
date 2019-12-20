@@ -15,6 +15,10 @@ We can generate Mandala designs using mathematical functions in Wolfram Mathemat
 - Get endpoints of the line segments, and use connecting functions like Polygon, Lines, Bezier Curves to randomly connect points and get a half mandala segment.
 - In order to get one segment, take mirror image over x-axis of the previous segment.
 - A whole mandala pattern can be created by rotating the segment and replicating it.
+
+![alt text](https://github.com/priyanka1706/Mandala-Generation/blob/master/Wolfram_Process.jpeg)
+Wolfram Mathematica Mandala creation process
+
 By changing the parameters like number of line segments to get points from (numbreaks), radius (numlength), angle of a segment (numrotation) (angle = Pi/numrotation) and connecting function (connectionfunc) we can get new mandala patterns.
 The application is also currently deployed on the web link https://www.wolframcloud.com/obj/a1eb70b1-2f4f-4270-9cf6-b93747d4b276. 
 
@@ -26,6 +30,10 @@ Generation of patterns on Python is done in two broad ways; automatically and ma
 - For the second mandala the sub image is simply flipped across the x and y axis to form a symmetric mandala with 4 cross sections.
 - A circle mask is applied on both the images, so that the final resulting mandala is circular and more symmetric looking in shape. 
 - Once all sub images are used, the original scribble is then flipped across the x and y axis to form more unique mandalas. 
+
+![alt text](https://github.com/priyanka1706/Mandala-Generation/blob/master/Python_Process.jpg)
+Python Mandala creation process
+
 Another user friendly custom mandala drawing tool is the section-wise drawing application, which allows the user to draw a specific section, which is then replicated exactly, forming a mandala custom to the user’s wishes. This is mainly an application to draw specific mandala patterns catering to the user’s needs.
 
 Code: 
