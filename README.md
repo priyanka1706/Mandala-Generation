@@ -7,6 +7,7 @@ To mine for images, we mainly used Google Images and Instagram. We used Python l
 Code:
 - data from google.ipynb
 - data from insta.ipynb
+- google_images_download.ipynb
 
 ## Symmetric Pattern Generation Application
 #### Wolfram Mathematica
