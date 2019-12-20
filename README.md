@@ -39,7 +39,7 @@ Another user friendly custom mandala drawing tool is the section-wise drawing ap
 Code: 
 - auto-pattern.py; automatic scribble
 - manual.py; manual scribble
-- eighth.py - custom mandala drawing tool
+- eighth.py; custom mandala drawing tool
 
 ## WGAN-div
 Source: Wu, Jiqing, et al. "Wasserstein divergence for gans." Proceedings of the European Conference on Computer Vision (ECCV). 2018.
