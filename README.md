@@ -7,6 +7,7 @@ To mine for images, we mainly used Google Images and Instagram. We used Python l
 Code:
 - data from google.ipynb
 - data from insta.ipynb
+- google_images_download.ipynb
 
 ## Symmetric Pattern Generation Application
 #### Wolfram Mathematica
@@ -21,6 +22,9 @@ Wolfram Mathematica Mandala creation process
 
 By changing the parameters like number of line segments to get points from (numbreaks), radius (numlength), angle of a segment (numrotation) (angle = Pi/numrotation) and connecting function (connectionfunc) we can get new mandala patterns.
 The application is also currently deployed on the web link https://www.wolframcloud.com/obj/a1eb70b1-2f4f-4270-9cf6-b93747d4b276. 
+
+Code: 
+- wolfram_mandala.nb; Mathematica notebook to create mandala designs
 
 #### Python
 Generation of patterns on Python is done in two broad ways; automatically and manually. For both the methods, the process is as follows:
